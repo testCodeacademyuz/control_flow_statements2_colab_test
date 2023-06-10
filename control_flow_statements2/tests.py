@@ -1,5 +1,5 @@
-from package_name import CheckSolution
-from package_name import test_cases
+from control_flow_statements2 import CheckSolution
+from control_flow_statements2 import test_cases
 
 class TestCaseRunner(CheckSolution):
     def __init__(self, task_name, homework_name, task):
@@ -76,4 +76,10 @@ task = [
     "taskNine",
     "taskTen",]
 
-q1 = TestCaseRunner(task_name="task01", homework_name="SlicingHomework", task=task[0])
+q1 = TestCaseRunner(task_name="iftask01", homework_name="control_flow_statements2", task=task[0])
+q2 = TestCaseRunner(task_name="iftask02", homework_name="control_flow_statements2", task=task[1])
+q3 = TestCaseRunner(task_name="iftask03", homework_name="control_flow_statements2", task=task[2])
+q4 = TestCaseRunner(task_name="iftask04", homework_name="control_flow_statements2", task=task[3])
+q5 = TestCaseRunner(task_name="iftask05", homework_name="control_flow_statements2", task=task[4])
+q6 = TestCaseRunner(task_name="iftask06", homework_name="control_flow_statements2", task=task[5])
+q7 = TestCaseRunner(task_name="iftask07", homework_name="control_flow_statements2", task=task[6])
